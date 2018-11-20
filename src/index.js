@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import firebase from "firebase";
+import './config/fbsend.js'
+import './config/fbauth.js'
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const storage = firebase.storage();
+const storageRef = storage.ref();
+console.log(storageRef);
+
+storage.ref("You Know master 8.22.17.mp3").getDownloadURL()
+  .then(song => {
+    document.getElementById("root").innerHTML = `
+      <audio
+        controls
+        src="${song}">
+      </audio>`
+  })
+

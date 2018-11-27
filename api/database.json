@@ -1,0 +1,34 @@
+{
+  "users": [
+    { "id": 1, "name": "Laura Vance" },
+    { "id": 2, "name": "Jase Hackman" },
+    { "id": 3, "name": "Zoe LeBlanc" },
+    { "id": 4, "name": "Blaise Roberts" }
+],
+
+  "songs": [
+  { "id": 1, "name": "You Know", "url": "You Know master 8.22.17.mp3", "userId": 1,
+    "downloadURL":"https://firebasestorage.googleapis.com/v0/b/songshare19.appspot.com/o/You%20Know%20master%208.22.17.mp3?alt=media&token=ca81fac5-d280-4839-aa20-5f2157972f89" },
+  { "id": 2, "name": "Needle In A Haystack", "url": "Needle in a Haystack (Corley-Herring-Vance).m4a", "userId": 1,
+    "downloadURL":"https://firebasestorage.googleapis.com/v0/b/songshare19.appspot.com/o/Needle%20in%20a%20Haystack%20(Corley-Herring-Vance).m4a?alt=media&token=b4971f22-fd5f-44a0-9478-a8aee8409949"}
+],
+
+  "playlist" : [
+  { "id": 1, "name": "Doodles" },
+  { "id": 2, "name": "Jack" },
+  { "id": 3, "name": "Angus" },
+  { "id": 4, "name": "Henley" },
+  { "id": 5, "name": "Derkins" },
+  { "id": 6, "name": "Checkers" }
+],
+
+  "songs_playlists" : [
+  { "id": 1, "name": "Steve" },
+  { "id": 2, "name": "John" },
+  { "id": 3, "name": "Mike" },
+  { "id": 4, "name": "Sue" },
+  { "id": 5, "name": "Clark" },
+  { "id": 6, "name": "Angela" }
+
+]
+}

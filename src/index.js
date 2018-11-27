@@ -6,9 +6,8 @@ import './config/fbauth.js'
 import TheMainPage from './components/TheMainPage'
 
 
-const storage = firebase.storage();
-const storageRef = storage.ref();
-console.log(storageRef);
+
+// console.log(storageRef);
 
 
 
